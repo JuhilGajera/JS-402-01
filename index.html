@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>    
+    <title>Geekster</title>
+  </head>
+
+  <body>
+    <div class="Google">
+      <h1>Google</h1>
+    </div>
+    &nbsp; &nbsp;
+    <div id="inputWrapper">
+      <input
+        id="input"
+        type="search"
+        autocomplete="off"
+        spellcheck="false"
+        role="combobox"
+        placeholder="Search Google or type a URL"
+        aria-live="polite"
+      />
+    </div>
+    &nbsp;
+    &nbsp;
+    <div>
+      <input
+        type="button"
+        class="button"
+        value="Google search"
+        id="myButton1"
+        onclick={handleClick()}
+      ></input>
+    </div>
+  </body>
+</html>
